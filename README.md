@@ -1,3 +1,4 @@
+
 # count zeros and ones in a binary number:
 To create a program which is used to find the number of binary ones and binary zeroes in a given decimal numbers.
 # Working:
@@ -12,3 +13,5 @@ To create a program which is used to find the number of binary ones and binary z
  - version:
 
     binary-zeroes-and-ones-of-decimal-numbers Version-v1.0.0
+# ones and zeros in a given decimal number
+

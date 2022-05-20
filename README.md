@@ -13,5 +13,3 @@ To create a program which is used to find the number of binary ones and binary z
  - version:
 
     binary-zeroes-and-ones-of-decimal-numbers Version-v1.0.0
-# ones and zeros in a given decimal number
-

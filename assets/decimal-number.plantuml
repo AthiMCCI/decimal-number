@@ -1,0 +1,26 @@
+@startuml " decimal-number"
+start
+:Get a decimal number from user;
+:declare a variable to store the value of 0's and 1's;
+
+
+while (is the user enter value is not equal to 0,) is (TRUE)
+  :Find the modulo of user entred number and store it in a variable as reminder;
+  :The given user value is divided by 2;
+  
+  if (is Reminder equal to 0?) then (YES)
+  :Then increament the 0's count;
+else (NO)
+  :Increament the 1's count;
+endif 
+:Stores the 0's and 1's in an Binary Value;
+
+
+
+endwhile (FALSE)
+:                                                       Display
+0's  and 1's count along with Binary value of user enterd decimal value;
+
+
+stop
+@enduml

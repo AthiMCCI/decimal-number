@@ -1,4 +1,4 @@
-# Logic to count zeros and ones in a binary number:
+# Count zeros and ones in a binary number:
 To create a program which is used to find the number of binary ones and binary zeroes in a given decimal numbers.
 # Working:
 - In this program,we are reading the decimal number using  variable.

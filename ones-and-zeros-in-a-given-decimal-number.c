@@ -86,8 +86,8 @@ void main(void)
         else
             printf("1");
 
-    if(bit % 4 == 0 && bit != 0)
-        printf("|");
+        if(bit % 4 == 0 && bit != 0)
+            printf("|");
         }
 
     printf("\n");

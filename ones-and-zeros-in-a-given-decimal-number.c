@@ -40,16 +40,16 @@ Function:
     and to diplay the output.
 
 Definition:
-    int main(
-    void
-    );
+    void main(
+        void
+        ) ;
 
 Returns:
-    Functions returning type: integer.
+   it returns nothing
 
 */
 
-int main(void)
+void main(void)
     {
     int number;
     int countOne;
@@ -82,12 +82,12 @@ int main(void)
         bin = number & (1 << bit);
 
         if (bin == 0)
-        printf("0");
+    printf("0");
         else
-        printf("1");
+    printf("1");
 
         if(bit % 4 == 0 && bit != 0)
-        printf("|");
+    printf("|");
         }
 
     printf("\n");
@@ -97,9 +97,9 @@ int main(void)
         {
         /* comparing binary value of num with 1 using bitwise operator */
         if (number & 1 == 1)
-        countOne++;                                 /* if true, increment one */
+    countOne++;                                 /* if true, increment one */
         else
-        countZero++;                                /* if false increment zero */
+    countZero++;                                /* if false increment zero */
 
         /* rightshifting the binary number by 1 digit */
         number = number >> 1;
@@ -108,6 +108,4 @@ int main(void)
     /* Printing number of ones and zeros */
     printf("\nThe number of Ones is: %d\n", countOne);
     printf("The number of zeros is: %d\n", countZero);
-
-    return 0;
     }

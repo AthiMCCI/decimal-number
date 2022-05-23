@@ -81,13 +81,13 @@ void main(void)
 
         bin = number & (1 << bit);
 
-        if (bin == 0)
-    printf("0");
-        else
-    printf("1");
+    if (bin == 0)
+        printf("0");
+    else
+        printf("1");
 
-        if(bit % 4 == 0 && bit != 0)
-    printf("|");
+    if(bit % 4 == 0 && bit != 0)
+        printf("|");
         }
 
     printf("\n");
@@ -96,10 +96,10 @@ void main(void)
     while (number > 0)
         {
         /* comparing binary value of num with 1 using bitwise operator */
-        if (number & 1 == 1)
-    countOne++;                                 /* if true, increment one */
-        else
-    countZero++;                                /* if false increment zero */
+    if (number & 1 == 1)
+        countOne++;                                 /* if true, increment one */
+    else
+        countZero++;                                /* if false increment zero */
 
         /* rightshifting the binary number by 1 digit */
         number = number >> 1;

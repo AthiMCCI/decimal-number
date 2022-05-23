@@ -1,24 +1,22 @@
-@startuml " decimal-number"
+@startuml
+
 start
-:Get a decimal number from user;
-:declare a variable to store the value of 0's and 1's;
 
-
-while (is the user enter value is not equal to 0,) is (TRUE)
-  :Find the modulo of user entred number and store it in a variable as reminder;
-  :The given user value is divided by 2;
-  
-  if (is Reminder equal to 0?) then (YES)
-  :Then increament the 0's count;
-else (NO)
-  :Increament the 1's count;
-endif 
+:Declare a variables to store one input and two output;
+:Get input from user and store it in input variable;
+:Initialize the number of ones and zeroes as '0' in other two output variables.;
+:Now display the Binary value for the number entered by user
+can verify the number of 1's and 0's in terminal;
+while (when input number is greater than 0) is (yes)
+    if (is the LSB of input number is set?\n            i.e. input number & 1 == 1 ?) then (yes)
+    :increment the variable for 1;
+    else (no)
+    :increment variable for 0;
+    endif
 :right shift the present bit of input number by 1;
-
-endwhile (FALSE)
-:                                                       Display
-0's  and 1's count along with Binary value of user enterd decimal value;
-
+endwhile (no)
+:Dsiplay the number of 1's and 0's;
 
 stop
+
 @enduml

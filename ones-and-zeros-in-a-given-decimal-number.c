@@ -24,7 +24,7 @@ Author:
 */
 
 #include<stdio.h>
-
+#include<conio.h>
 /****************************************************************************\
 |
 |    Code.
@@ -108,4 +108,6 @@ void main(void)
     /* Printing number of ones and zeros */
     printf("\nThe number of Ones is: %d\n", countOne);
     printf("The number of zeros is: %d\n", countZero);
+    
+    getch();
     }
